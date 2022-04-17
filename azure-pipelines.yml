@@ -12,6 +12,6 @@ pool:
 - task: CmdLine@2
   inputs:
     script: |
-      javac helloworld.java
-      helloworld
+      javac helloworld
+      java helloworld
 
